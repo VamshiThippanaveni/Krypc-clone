@@ -1,0 +1,199 @@
+.banner{
+    position: relative;
+    width:100%;
+    height:600px;
+    background-image: url('src/assets/Header-Blur-bg.png');
+    background-size:cover;
+    object-fit:fill;
+    background-position:100%;
+    color: #fff;
+}
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    transform: translate(0%, 20%);
+    text-align:center; 
+  }
+  .banner-context-left{
+    width: 50%;
+    text-align: center;
+    transform: translate(10%, 7%);
+  }
+.banner-heading{
+    text-align:start;
+    width: 100%;
+    height: 37%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 60px;
+    background: linear-gradient(86.32deg, #33354A 8.78%, #A219BC 37.32%, #F81F49 65.87%, #FA522B 95.26%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-docs {
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px; 
+    
+}
+.banner-docs p{
+    display: flex;
+    text-align: left;
+    background: rgba(53, 53, 53, 0.9);
+    line-height: 23px;
+    transform: translate(6%,50%);
+    opacity: 0px;
+    font-size: 15px;
+    font: bolder;
+   
+    font-weight: 600;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buttons{
+    width: 100%;
+    transform: translate(-3%,170%);
+    display:flex;
+    gap: 20px;
+    border-radius: 16px;
+    opacity: 0px;
+
+}
+.button-getstart{
+    background-color: rgb(58, 140, 247);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.button-getstart:hover{
+    background-color: #1003cf;
+}
+.button-docs{
+    background-color:white;
+    color: black;
+    border:1.5px solid rgba(229, 229, 231, 1);
+    border-radius:26px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+}.banner-context-right{
+    position: relative;
+}
+.banner-context-right img{
+    flex:1;
+    width: 80%;
+    transform: translate(60px,-40px);
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+/* ----media queries for left side banner content---- */
+
+    
+@media (max-width:430px) {
+    .banner-context-right img{
+        
+        display: flex;
+        width: 400px;
+        transform: translate(0%,10%);
+    }
+    .banner{
+        width: 100%;
+        height: 1000px;
+        background-image: url('src/assets/Header-Blur-bg-mbl.png');
+        background-size:cover;
+        background-position:100%;
+        color: #fff;
+    }
+    .banner-content {
+        display: flex;
+       flex-direction: column;
+        top: -40px;
+      }
+    .banner-context-left{
+        width: 88%;
+        height: 100%;
+        text-align: center;
+        transform: translate(5%, 0%);
+      }
+    .banner-heading{
+        display: flex;
+        text-align:left;
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 50px;
+        background: linear-gradient(86.32deg, #33354A 8.78%, #A219BC 37.32%, #F81F49 65.87%, #FA522B 95.26%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+       
+    }
+    .break{
+        display: none;
+    }
+    .banner-docs p{
+        width: 392px fixed;
+        height: 200px;
+        gap: 0px;
+        opacity: 0px;
+        background: rgba(53, 53, 53, 0.9);
+        line-height: 1.6;
+        transform: translate(0%,0%);
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    .buttons{
+        width: 100%;
+        transform: translate(-3%,10%);
+        display:flex;
+        gap: 20px;
+        opacity: 0px;
+    }
+    .button-getstart{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        background-color: rgb(58, 140, 247);
+        color: #fff;
+        border: none;
+        border-radius: 40px;
+        transform: translate(10%,30%);
+       
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .button-getstart:hover{
+        background-color: #1003cf;
+    }
+    .button-docs{
+        width: 30%;
+        background-color:white;
+        color: black;
+        border:1.5px solid rgba(229, 229, 231, 1);
+        border-radius:26px;
+        transform: translate(10%,30%);  
+        font-size: 10px;
+        cursor: pointer;
+        
+    }
+}
+/* ------banner-content-right----- */
+
+
+
+
+    

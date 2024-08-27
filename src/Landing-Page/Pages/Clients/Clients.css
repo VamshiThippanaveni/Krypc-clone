@@ -1,0 +1,70 @@
+.icon-container{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 60px; 
+    bottom: -550px;
+}
+.icon-marquee{
+    display: inline-flex;
+    animation: scrollIcons 15s linear infinite;
+}
+.icon-marquee img{
+    height: auto;
+    margin-right: 10px;
+}
+.icon-marquee:hover {
+    animation-play-state: paused;
+} 
+.icon-scroll img:hover {
+    transform: scale(1.1); 
+}
+@keyframes scrollIcons {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width:430px) {
+    .icon-container {
+    
+            height: 50px;
+            bottom: -970px;
+            gap: 20px;
+            overflow: hidden;
+            position: relative;
+            padding: 10px auto;
+    
+            align-items: center;
+            scrollbar-width: none;
+        }
+        .icon-marquee{
+            animation: scrollIcons 20s linear infinite;
+            justify-content: start;
+
+        }
+
+    .icon-marquee img {
+        width: 150px; 
+        margin-right: 8px;
+        transition: transform 0.1s ease;
+
+    }
+    .icon-marquee:hover {
+        animation-play-state: paused;
+    } 
+    .icon-scroll img:hover {
+        transform: scale(1.1);
+    }
+    @keyframes scrollIcons {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%); 
+        }
+    }
+}
