@@ -4,6 +4,8 @@ import Banner from './Pages/Banner/Banner'
 import DApp from './Pages/dApp/DApp'
 import FeatureHead from './Pages/Features-head/FeatureHead'
 import Features from './Pages/Features/Features'
+import Apisdk from './Pages/Api-Sdk/Apisdk'
+import DarkTheme from './Pages/Dark-theme/DarkTheme'
 
 const LandingPage = () => {
   return (
@@ -12,6 +14,8 @@ const LandingPage = () => {
       <DApp/>
       <FeatureHead/>
       <Features/>
+      <Apisdk/>
+      <DarkTheme/>
     </div>
   )
 }

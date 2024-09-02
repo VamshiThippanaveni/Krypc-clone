@@ -32,12 +32,11 @@
     .icon-container {
     
             height: 50px;
-            bottom: -970px;
+            bottom: -990px;
             gap: 20px;
             overflow: hidden;
             position: relative;
             padding: 10px auto;
-    
             align-items: center;
             scrollbar-width: none;
         }

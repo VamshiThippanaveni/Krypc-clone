@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import krypclogo from '../../../assets/krypcore-logo 1.png'
-import icon from '../../../assets/icon.svg'
+import icon from '../../../assets/Icon.png'
 
 const Header = () => {
   return (

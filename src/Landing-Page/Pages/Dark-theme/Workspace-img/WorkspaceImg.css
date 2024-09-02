@@ -1,0 +1,143 @@
+.workspace{
+    z-index: 2;
+    width: 87%;
+    height: 490px;
+    transform: translate(7%,1020px);
+}
+
+
+.workspace-container{
+    width: 60%;
+    height: 490px;
+    z-index: 2;
+    background: linear-gradient(113.58deg, rgba(28, 29, 33, 0.69) 0%, rgba(28, 29, 33, 0) 95.53%);
+    
+}
+.workspace-container img{
+    z-index: 3;
+    width: 100%;
+    height: 490px;
+}
+.workspace-container button{
+    z-index: 4;
+    transform: translate(23%,-60px);
+    width: 25%;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(10, 119, 255, 1);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.documentation{
+    width: 37%;
+    height: 290px;
+    background: rgba(10, 119, 255, 1);
+    transform: translate(730px,-490px);
+    border-radius: 10px;
+}
+.documentation h5{
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px 10px 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.documentation p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    padding: 0px 0px 10px 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.documentation-buttons{
+    width: 100%;
+    transform: translate(10%,120px);
+}
+.btn-one{
+    width: 27%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-two{
+    width: 24%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+.explore{
+    width: 37%;
+    height: 185px;
+    background: rgba(28, 29, 33, 1);
+    transform: translate(730px,-475px);
+    border-radius: 10px;
+}
+.social-media-icons{
+    transform: translate(60%);
+    padding: 10px;
+}
+.social-media-icons img{
+    width: 10%;
+    margin: 10px;
+    cursor: pointer;
+}
+.explore-community{
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+@media (max-width:430px) {
+    .workspace-container{
+        display: none;
+    }
+    .documentation{
+        width: 95%;
+        height: 280px;
+        background: rgba(10, 119, 255, 1);
+        transform: translate(10px,800px);
+        border-radius: 10px;
+    }
+    .documentation-buttons{
+        width: 100%;
+        transform: translate(0%,70px);
+        gap: 10px;
+    }
+    .btn-one{
+        font-size: 13px;
+    }
+    .btn-two{
+        font-size: 13.5px;
+        height: 39px;
+    }
+    .explore{
+        width: 95%;
+        height: 200px;
+        background: rgba(28, 29, 33, 1);
+        transform: translate(10px,830px);
+        border-radius: 10px;
+    }
+}

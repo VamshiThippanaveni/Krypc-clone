@@ -138,7 +138,7 @@
         -webkit-text-fill-color: transparent;
        
     }
-    .break{
+    .break-docs{
         display: none;
     }
     .banner-docs p{
@@ -157,23 +157,21 @@
         
     }
     .buttons{
+        transform: translate(10%,120px);
         width: 100%;
-        transform: translate(-3%,10%);
         display:flex;
         gap: 20px;
-        opacity: 0px;
     }
     .button-getstart{
-        display: flex;
-        justify-content: center;
+        text-align: center;
         width: 30%;
         background-color: rgb(58, 140, 247);
         color: #fff;
         border: none;
         border-radius: 40px;
-        transform: translate(10%,30%);
-       
-        font-size: 10px;
+        transform: translate(-20%,-100px);
+        padding: 10px ;
+        font-size: 12px;
         cursor: pointer;
     }
     .button-getstart:hover{
@@ -185,8 +183,8 @@
         color: black;
         border:1.5px solid rgba(229, 229, 231, 1);
         border-radius:26px;
-        transform: translate(10%,30%);  
-        font-size: 10px;
+        transform: translate(-20%,-100px);  
+        font-size: 12px;
         cursor: pointer;
         
     }

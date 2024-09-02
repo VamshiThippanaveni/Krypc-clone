@@ -17,7 +17,7 @@ const Banner = () => {
             <p>
               Leverage the power of advanced APIs and SDKs. Experience the<br className="break"/>
               excitement of shaping the future of Web3 without the need for
-              extensive<br className="break"/>knowledge of protocols or frameworks in dApp development
+              extensive<br className="break-docs"/>knowledge of protocols or frameworks in dApp development
             </p>
             <div className="buttons">
               <button className="button-getstart">Get Started</button>

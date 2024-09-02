@@ -1,0 +1,296 @@
+.api-sdk{
+    width: 100%;
+    height: auto;
+    transform: translate(0%,30%);
+}
+.api-sdk-header{
+    text-align: center;
+}
+.api-sdk-header p{
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.api-sdk-header h2{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width:430px) {
+    .api-sdk{
+        width: 100%;
+        height: 100px;
+        transform: translate(0%,140%);
+    }
+    .api-sdk-header p{
+        font-size: 13px;
+        margin-bottom: 10px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .api-sdk-header h2{
+        font-weight: 600;
+        font-size: 25px;
+    }
+}
+.api-sdk-container{
+    width: 90%;
+    height: auto;
+    transform: translate(5%,5px);
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.api-card{
+    position: relative;
+    width: 62%;
+    height: 500px;
+    background: rgba(18, 19, 22, 1);
+    border-radius: 10px;
+    transform: translate();
+}
+
+.api-card h1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 20px 30px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.api-card p{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: start;
+    padding: 80px 0px 20px 30px;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.api-frame{
+    display: flex;
+    flex-direction: column;
+    transform: translate(5%,270px);
+    gap: 10px;
+}
+.api-frame img{
+    width: 15px; 
+    height: 15px;
+    margin-right: 10px; 
+}
+.api-item{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+.api-frame button{
+    width: 22%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 450;
+    background: linear-gradient(96.75deg, #F81F49 3.56%, #FA522B 55.29%);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+
+}
+
+/* ----carbons-container--- */
+.carbons-container{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 400px;
+    background: rgba(28, 29, 33, 1);
+    transform: translate(100%,-201px);
+    border-radius: 0px 10px 0px 10px;
+    
+}
+.carbon-one img{
+    width: 80%;
+    transform: translate(10%,100px);
+}
+.carbon-two img{
+    width: 80%;
+    transform: translate(10%,110px);
+}
+
+.sdk-card{
+    position: relative;
+    width: 37%;
+    height: 500px;
+    background: rgba(187, 214, 255, 1);
+    border-radius: 10px;
+    transform: translate();
+}
+.sdk-card h1{
+    position: absolute;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 0px 20px 30px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.sdk-card p{
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: start;
+    padding: 90px 0px 20px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+.sdk-card a{
+    position: absolute;
+    z-index: 1;
+    color: blue;
+    text-align: start;
+    padding: 140px 0px 20px 30px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.sdk-input{
+    display: flex;
+    flex-direction: column;
+    transform: translate(10%,370px);
+    gap: 20px;
+}
+.sdk-input input{
+    width: 70%;
+    padding: 15px 0px 15px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    border: 1px solid rgba(104, 104, 104, 1);
+    background-image: url('src/assets/double-rect.png');
+    background-repeat: no-repeat;
+    background-position: 270px;
+    
+}
+.sdk-input button{
+    width: 30%;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 25px;
+    background: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 550;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+
+}
+@media (max-width:430px) {
+    
+    .api-sdk-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .api-card{
+        position: relative;
+        width: 90%;
+    }
+    .api-frame{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        transform: translate(6%,270px);
+    }
+    .api-frame img{
+        width: 15px; 
+        height: 15px;
+        margin-right: 10px; 
+    }
+    .api-item{
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+      }
+    .api-frame button{
+        width: 35%;
+        transform: translate(0%,0px);
+        text-align: center;
+        font-size: 12px;
+        padding: 10px 8px;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        font-weight: 450;
+        background: linear-gradient(96.75deg, #F81F49 3.56%, #FA522B 55.29%);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+    
+    }
+
+    .carbons-container{
+        display: none;
+    }
+    .sdk-card{
+        position: relative;
+        width: 90%;
+    }
+    .sdk-input{
+        width: 85%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        transform: translate(7%,370px);
+        gap: 1px;
+    }
+    .sdk-input input{
+        width: 100%;
+        padding: 15px 15px 15px 25px;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 12px;
+        border: 1px solid rgba(104, 104, 104, 1);
+        background-image: url('src/assets/double-rect.png');
+        background-repeat: no-repeat;
+        background-position: 260px;
+    }
+    .sdk-input button{
+        width: 40%;
+        transform: translate(5%,20px);
+        font-size: 15px;
+        padding: 13px;
+        border-radius: 25px;
+        background: blue;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: 550;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+    
+    }
+}
+
+
+
+
+
